@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper</title>
+    <style>
+ 
+        #greenButton{
+            background-color: rgb(146, 219, 79);
+        }
+        #redButton{ 
+            background-color: rgb(222, 63, 45);
+        }
+        #blueButton{
+            background-color: rgb(100, 217, 219);
+
+        }
+      
+        button{
+            border-radius: 5px;
+            width: 100px;
+            height: 40px;
+            margin: 5px;
+            font-size: large;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h3>Color Flipper</h3>
+    <button id="greenButton" onclick="buttonPressColor('green')">Green</button>
+    <button id="blueButton" onclick="buttonPressColor('blue')">Blue</button>
+    <button id="redButton" onclick="buttonPressColor('red')">Red</button>
+    <button id="random" onclick="colorRandomizer()">Random</button>
+
+<script src="index.js"></script>
+</body>
+
+</html>
